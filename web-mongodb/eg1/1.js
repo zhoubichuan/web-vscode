@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 const conn = mongoose.createConnection("mongodb://localhost:27017/school", {
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 conn.on("error", err => {
@@ -38,7 +39,7 @@ user.save((err, doc) => {
 });
 let user2 = new User({
   name: 4,
-  age: "w"
+  age: 12
 });
 user2.save((err, doc) => {
   console.log(err);
