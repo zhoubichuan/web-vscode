@@ -7,9 +7,10 @@ const connection = mysql.createConnection({
   database: "test"
 });
 connection.connect();
-
 let userDeleteSql = "DELETE FROM userinfo";
 connection.query(userDeleteSql, function(err, result) {
-  console.log("删" + JSON.stringify(result));
+  if(!err){
+    console.log("删除成功");
+  }
 });
 connection.end();
