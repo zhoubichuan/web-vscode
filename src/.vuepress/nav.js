@@ -20,7 +20,7 @@ const nav = [{
   items: [
     {
       text: '一.插件开发',
-      link: '/senior/use/1.recursionAndDynamics'
+      link: '/senior/use/1.index'
     },
     {
       text: '二.深入底层',
@@ -32,15 +32,15 @@ const nav = [{
   text: '源码知识',
   items: [
     {
-      text: '1.vue源码解析',
+      text: '1.',
       link: '/source/vue/1.preparation'
     },
     {
-      text: '2.vuex源码解析',
+      text: '2.',
       link: '/source/vuex'
     },
     {
-      text: '3.vue-router源码解析',
+      text: '3.',
       link: '/source/vue-router'
     },
   ]

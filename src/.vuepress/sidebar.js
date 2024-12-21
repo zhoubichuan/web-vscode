@@ -43,7 +43,7 @@ const sidebar = {
     // '21'
   ],
   '/senior/use/': [
-    '1.recursionAndDynamics',
+    '1.index',
     '2.extend',
     '3.componentCommunication',
     '4.render',
