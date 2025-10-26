@@ -24,7 +24,7 @@ const nav = [{
     },
     {
       text: '二.深入底层',
-      link: '/senior/typeScript'
+      link: '/senior/npm/1.index'
     },
   ]
 },

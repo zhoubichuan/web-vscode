@@ -55,6 +55,9 @@ const sidebar = {
     '10.table',
     '11.tree'
   ],
+   '/senior/npm/': [
+    '1.index',
+  ],
   '/source/vue/': [
     '1.preparation',
     '2.dataDriven',
